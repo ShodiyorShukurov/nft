@@ -21,7 +21,6 @@ burgerMenu.addEventListener("click", function () {
 let linebtn = false;
 accordionBtn.addEventListener("click", function () {
   if (!linebtn) {
-    console.log("create");
     line.style.rotate = "180deg";
     linebtn = true;
   } else {

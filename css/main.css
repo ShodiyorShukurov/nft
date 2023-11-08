@@ -371,21 +371,7 @@ a {
   transition: all 0.3s;
 }
 
-.card-section__blog {
-  position: absolute;
-  top: 168px;
-  left: calc(50% - 173px);
-  margin: 0;
-  padding: 4px 22px;
-  border-radius: 20px;
-  background: var(--1, linear-gradient(103deg, #ff0a6c 0%, #2d27ff 100%));
-  color: #fff;
-  font-size: 12px;
-  font-weight: 800;
-  line-height: 18px;
-}
-
-.card-section__title {
+.card-section__item h2 {
   margin-top: 32px;
   margin-bottom: 8px;
   padding-right: 55px;
@@ -400,7 +386,7 @@ a {
   border: 1px solid var(--1, #ff0a6c);
 }
 
-.card-section__text {
+.card-section__item p {
   padding-right: 26px;
   padding-left: 28px;
   margin: 0;
@@ -411,7 +397,21 @@ a {
   letter-spacing: 0.8px;
 }
 
-.card-section__footer {
+.card-section__item span {
+  position: absolute;
+  top: 168px;
+  left: calc(50% - 173px);
+  margin: 0;
+  padding: 4px 22px;
+  border-radius: 20px;
+  background: var(--1, linear-gradient(103deg, #ff0a6c 0%, #2d27ff 100%));
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 18px;
+}
+
+.card-section__item div {
   padding-top: 33px;
   padding-bottom: 30px;
   display: flex;
@@ -426,7 +426,7 @@ a {
   align-items: center;
 }
 
-.card-section__btn {
+.card-section__end button {
   padding: 12px 75px;
   color: #fff;
   text-align: center;
@@ -439,6 +439,11 @@ a {
   background-image: var(--1, linear-gradient(103deg, #ff0a6c 0%, #2d27ff 100%));
   border: none;
   border-radius: 6px;
+  transition: all 1s ease;
+}
+
+.card-section__end button:hover {
+  background-image: var(--1, linear-gradient(103deg, #2d27ff 0%, #ff0a6c 100%));
 }
 
 .right-bottom {
@@ -465,18 +470,18 @@ a {
     width: 296px;
   }
 
-  .card-section__blog {
+  .card-section__item span {
     position: absolute;
     top: 129px;
     left: 26px;
   }
 
-  .card-section__title {
+  .card-section__item h2 {
     font-size: 16px;
     padding: 0 17px;
   }
 
-  .card-section__text {
+  .card-section__item p {
     padding: 0 17px;
     margin: 0;
   }
@@ -497,7 +502,7 @@ a {
   border-bottom: 1px solid #2e303e;
 }
 
-.site-footer__title {
+.site-footer__list h3 {
   margin-top: 0;
   margin-bottom: 23px;
   color: #fff;
@@ -515,7 +520,7 @@ a {
   width: 238px;
 }
 
-.site-footer__link {
+.site-footer__item a {
   color: rgba(225, 226, 233, 0.5);
   font-size: 14px;
   font-weight: 400;
