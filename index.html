@@ -17,6 +17,7 @@
   <body>
     <!-- HEADER START -->
     <header class="site-header">
+      <img class="top-left" src="./images//icons/lefttop.svg" alt="logo" width="421">
       <div class="container">
         <div class="site-header__wrapper">
           <div class="site-header__logo">
@@ -194,10 +195,11 @@
                 src="./images/icons/burger.svg"
                 alt="logo"
               />
+
               <ul class="site-header__list-mobile">     
                 <div
                   class="site-header__accordion accordion"
-                  id="accordionExample"
+                  id="accordionPanelsStayOpenExample"
                 >
                 <li class="site-header__item-mobile">
                     <div class="accordion-item">
@@ -206,9 +208,9 @@
                           class="site-header__accordion-btn d-flex justify-content-between align-items-center"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapseOne"
+                          data-bs-target="#panelsStayOpen-collapseOne"
                           aria-expanded="false"
-                          aria-controls="collapseOne"
+                          aria-controls="panelsStayOpen-collapseOne"
                         >
                           Новости 
                           <span id="line">
@@ -219,9 +221,8 @@
                         </button>
                       </h2>
                       <div
-                        id="collapseOne"
+                        id="panelsStayOpen-collapseOne"
                         class="accordion-collapse collapse"
-                        data-bs-parent="#accordionExample"
                       >
                         <div class="accordion-body">
                           <ul class="accordion-list">
@@ -248,9 +249,9 @@
                           class="site-header__accordion-btn d-flex justify-content-between align-items-center"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapseTwo"
+                          data-bs-target="#panelsStayOpen-collapseTwo"
                            aria-expanded="false"
-                          aria-controls="collapseTwo"
+                          aria-controls="panelsStayOpen-collapseTwo"
                         >
                           Гайды
                           <span id="line">
@@ -260,7 +261,7 @@
                         </button>
                       </h2>
                       <div
-                        id="collapseTwo"
+                        id="panelsStayOpen-collapseTwo"
                         class="accordion-collapse collapse"
                         data-bs-parent="#accordionExample"
                       >
@@ -299,9 +300,9 @@
                           class="site-header__accordion-btn d-flex justify-content-between align-items-center"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapseThree"
+                          data-bs-target="#panelsStayOpen-collapseThree"
                            aria-expanded="false"
-                          aria-controls="collapseThree"
+                          aria-controls="panelsStayOpen-collapseThree"
                         >
                           Цифровое искусство
                           <span id="line">
@@ -311,7 +312,7 @@
                         </button>
                       </h2>
                       <div
-                        id="collapseThree"
+                        id="panelsStayOpen-collapseThree"
                         class="accordion-collapse collapse"
                         data-bs-parent="#accordionExample"
                       >
@@ -344,9 +345,9 @@
                           class="site-header__accordion-btn d-flex justify-content-between align-items-center"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapseFour"
+                          data-bs-target="#panelsStayOpen-collapseFour"
                            aria-expanded="false"
-                          aria-controls="collapseFour"
+                          aria-controls="panelsStayOpen-collapseFour"
                         >
                           Сообщество
                           <span id="line">
@@ -356,7 +357,7 @@
                         </button>
                       </h2>
                       <div
-                        id="collapseFour"
+                        id="panelsStayOpen-collapseFour"
                         class="accordion-collapse collapse"
                         data-bs-parent="#accordionExample"
                       >
@@ -545,6 +546,7 @@
           </div>
         </section>
       </div>
+      <img class="right-bottom" src="./images/icons/rightbottom.svg" alt="logo">
     </main>
     <!-- SITE MAIN END -->
 
@@ -638,7 +640,7 @@
             </li>
           </ul>
         </div>
-        <div class="accordion" id="accordionExample">
+        <div class="footer-accordion accordion" id="accordionExample">
           <div class="accordion-item site-footer__item-accordion">
           <h2 class="accordion-header">
            <button class="site-footer__item-btn d-flex justify-content-between align-items-center w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
