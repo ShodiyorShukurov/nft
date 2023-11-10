@@ -305,6 +305,11 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+  .site-header__logo {
+    width: 145px;
+    height: 38px;
+  }
+
   .top-left {
     width: 300px;
     /* backdrop-filter: blur(90px);
@@ -534,10 +539,103 @@ a {
   text-decoration: underline;
 }
 
+.avtor-section span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 19px;
+}
+
+.avtor-section__wrapper {
+  padding-top: 49px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.avtor-section__start {
+  background-image: url("../images/avtor1.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 38px 625px 302px 25px;
+  background-size: cover;
+}
+
+.avtor-section__end {
+  margin-left: 31px;
+}
+
+.avtor-section__end h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.avtor-section__end p {
+  margin: 0;
+  color: #cecece;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.36px;
+}
+
+.avtor-section__card-img {
+  position: absolute;
+  top: 23px;
+  left: 119px;
+  right: 0;
+}
+
+.avtor-section__card h2 {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  color: #cecece;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+}
+
+.avtor-section__card h4 {
+  padding-left: 28px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #b6b9be;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.avtor-section__card p {
+  padding-bottom: 20px;
+  padding-right: 16px;
+  color: #cecece;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0.8px;
+}
+
+.avtor-section__card b {
+  font-weight: 600;
+}
+
+.avtor-section__card-desc p {
+  display: inline;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .avtor-section__start {
+    padding: 38px 580px 280px 25px;
+  }
+}
+
 @media screen and (max-width: 1040px) {
   .marketing-section__wrapper {
     padding: 40px;
-    /* background-image: url('../images/li2.png'); */
     background-position: center center;
     background-size: 900px 700px;
     display: flex;
@@ -548,6 +646,14 @@ a {
   }
   .marketing-section__start {
     align-items: start;
+  }
+  .avtor-section__wrapper {
+    flex-direction: column;
+  }
+
+  .avtor-section__start {
+    background-image: url("../images/avtor2.png");
+    padding: 36px 480px 230px 30px;
   }
 }
 
@@ -580,6 +686,29 @@ a {
   .card-section__item p {
     padding: 0 17px;
     margin: 0;
+  }
+
+  .avtor-section__end {
+    margin-left: 0px;
+  }
+
+  .avtor-section__card-img {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    right: 0;
+  }
+
+  .avtor-section__card h4 {
+    padding-left: 17px;
+  }
+  .avtor-section__card p {
+    padding-bottom: 20px;
+  }
+  .avtor-section__card b {
+    font-weight: 600;
+    display: none;
   }
 }
 
@@ -630,8 +759,47 @@ a {
     margin-bottom: 20px;
   }
 
+  .avtor-section__start svg {
+    width: 70px;
+    height: 30px;
+  }
+
   .marketing-section__end p {
     text-align: center;
+  }
+
+  .avtor-section span {
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 19px;
+  }
+
+  .avtor-section__start {
+    background-image: url("../images/avtor3.png");
+    padding: 27px 188px 184px 31px;
+  }
+
+  .avtor-section__end h1 {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  .avtor-section__end p {
+    font-size: 12px;
+    line-height: normal;
+  }
+
+  .avtor-section__card h2 {
+    margin-top: 16px 10px 5px 10px;
+    font-size: 16px;
+  }
+
+  .avtor-section__card h4 {
+    margin-top: 0px 10px 20px 10px;
+  }
+
+  .avtor-section__card h4 {
+    font-size: 14px;
   }
 }
 
