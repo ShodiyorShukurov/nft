@@ -627,6 +627,45 @@ a {
   padding-bottom: 20px;
 }
 
+.category-section__end span {
+  color: #d80f87;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 46px;
+}
+
+.category-section__end p {
+  color: #cecece;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.36px;
+}
+
+.category-section__end a {
+  color: #cecece;
+  text-decoration: underline;
+}
+
+.category-section__end button {
+  padding: 10px 20px;
+  margin-top: 30px;
+  color: #fff;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.12);
+  font-size: 15.625px;
+  font-weight: 600;
+  line-height: 21px;
+  border-radius: 8px;
+  background: linear-gradient(99deg, #ff0a6c 0%, #2d27ff 100%);
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
+  border: none;
+  transition: all 0.5s linear;
+}
+
+.category-section__end button:hover {
+  background-image: var(--1, linear-gradient(103deg, #2d27ff 0%, #ff0a6c 100%));
+}
+
 @media screen and (max-width: 1200px) {
   .avtor-section__start {
     padding: 38px 580px 280px 25px;
@@ -800,6 +839,30 @@ a {
 
   .avtor-section__card h4 {
     font-size: 14px;
+  }
+
+  .category-section__end span {
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  .category-section__end h1 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  .category-section__end p {
+    font-size: 12px;
+    line-height: normal;
+  }
+
+  .category-section__end a {
+    color: #cecece;
+    text-decoration: underline;
   }
 }
 
