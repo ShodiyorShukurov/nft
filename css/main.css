@@ -398,8 +398,12 @@ a {
   color: #cecece;
   font-size: 14px;
   font-weight: 600;
-  line-height: 21px; /* 150% */
+  line-height: 21px;
   letter-spacing: 0.8px;
+}
+
+.card-section__item a{
+color: #cecece;
 }
 
 .card-section__item span {
